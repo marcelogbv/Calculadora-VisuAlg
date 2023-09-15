@@ -88,7 +88,7 @@ Inicio
                        escreval("|---------------", a, " + ", b, " = ", adicao(a, b), " ----------------|")
                        escreval("+----------------------------------------------+")
                        escreval
-                       senao
+                     senao
        //Estrutura "subtração"
                             se operacao = "-" entao
                                limpatela
