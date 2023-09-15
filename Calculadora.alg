@@ -1,6 +1,9 @@
 procedimento ajuda (decisao:caractere)
 inicio
-      escreval("------------------------------------------------")
+      limpatela
+      escreval("+----------------------------------------------+")
+      escreval("|-------------Comandos-Calculadora-------------|")
+      escreval("+----------------------------------------------+")
       escreval("Lista de comandos: ")
       escreval("- Adição: +")
       escreval("- Subtração: -")
@@ -69,7 +72,7 @@ Inicio
                                escreval("+----------------------------------------------+")
                                escreval("|-----------------Calculadora------------------|")
                                escreval("+----------------------------------------------+")
-                               escreval("Operação de subtracao: ")
+                               escreval("Operação de subtração: ")
                                leia(a)
                                escreval(" - ")
                                leia(b)
@@ -113,8 +116,9 @@ Inicio
       fimenquanto
       
       limpatela
-      escreval("------------------------------------------------")
-      escreval("                                           >>> Até mais!")
+      escreval("+--------------------------------------------------------------+")
+      escreval("|-------------------------Até-Mais!----------------------------|")
+      escreval("+--------------------------------------------------------------+")
       escreval("                      .&dkl`,ivne._                            ")
       escreval("                      sRfkgvc+rsnmGBND.                        ")
       escreval("                    aHBNLbni+.irumLGNMms                       ")
@@ -137,5 +141,5 @@ Inicio
       escreval("        K   K B               -s&.            eJ+  .ys7^`      ")
       escreval("        T   lLj                               (C' .4           ")
       escreval("        P   'y    .,                      .   +j  7            ")
-      escreval("------------------------------------------------")
+      escreval("----------------------------------------------------------------")
 Fimalgoritmo
