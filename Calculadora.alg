@@ -79,12 +79,15 @@ Inicio
                        escreval("+----------------------------------------------+")
                        escreval("|-----------------Calculadora------------------|")
                        escreval("+----------------------------------------------+")
-                       escreval("Operação de adição: ")
+                       escreval("Operação de adição")
+                       escreva("Digite o primeiro números: ")
                        leia(a)
-                       escreval(" + ")
+                       escreva("Digite o segundo número: ")
                        leia(b)
-                       escreval(" = ", adicao(a, b))
-                       escreval("------------------------------------------------")
+                       escreval("+----------------------------------------------+")
+                       escreval("|---------------", a, " + ", b, " = ", adicao(a, b), " ----------------|")
+                       escreval("+----------------------------------------------+")
+                       escreval
                        senao
        //Estrutura "subtração"
                             se operacao = "-" entao
@@ -92,12 +95,15 @@ Inicio
                                escreval("+----------------------------------------------+")
                                escreval("|-----------------Calculadora------------------|")
                                escreval("+----------------------------------------------+")
-                               escreval("Operação de subtração: ")
+                               escreval("Operação de subtração")
+                               escreva("Digite o primeiro número: ")
                                leia(a)
-                               escreval(" - ")
+                               escreva("Digite o segundo número: ")
                                leia(b)
-                               escreval(" = ", subtracao(a, b))
-                               escreval("------------------------------------------------")
+                              escreval("+----------------------------------------------+")
+                              escreval("|---------------", a, " - ", b, " = ", subtracao(a, b), " ----------------|")
+                              escreval("+----------------------------------------------+")
+                              escreval
                             senao
        //Estrutura "Multiplicação
                                  se operacao = "*" entao
@@ -105,12 +111,15 @@ Inicio
                                  escreval("+----------------------------------------------+")
                                  escreval("|-----------------Calculadora------------------|")
                                  escreval("+----------------------------------------------+")
-                                 escreval("Operação de multiplicaçao: ")
+                                 escreval("Operação de multiplicaçao")
+                                 escreva("Digite o primeiro número: ")
                                  leia(a)
-                                 escreval(" * ")
+                                 escreva("Digite o segundo número: ")
                                  leia(b)
-                                 escreval(" = ", multiplicacao(a, b))
-                                 escreval("------------------------------------------------")
+                                 escreval("+----------------------------------------------+")
+                                 escreval("|---------------", a, " x ", b, " = ", multiplicacao(a, b), " ----------------|")
+                                 escreval("+----------------------------------------------+")
+                                 escreval
                                  senao
        //Estrutura "divisão"
                                       se operacao = "/" entao
@@ -118,12 +127,15 @@ Inicio
                                       escreval("+----------------------------------------------+")
                                       escreval("|-----------------Calculadora------------------|")
                                       escreval("+----------------------------------------------+")
-                                      escreval("Operação de divisão: ")
+                                      escreval("Operação de divisão")
+                                      escreva("Digite o primeiro número: ")
                                       leia(a)
-                                      escreval(" / ")
+                                      escreva("Digite o segundo número: ")
                                       leia(b)
-                                      escreval(" = ", divisao(a, b))
-                                      escreval("------------------------------------------------")
+                                      escreval("+----------------------------------------------+")
+                                      escreval("|---------------", a, " / ", b, " = ", divisao(a, b), " ----------------|")
+                                      escreval("+----------------------------------------------+")
+                                      escreval
                                       fimse
                                  fimse
                             fimse
