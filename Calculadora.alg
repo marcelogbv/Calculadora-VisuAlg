@@ -1,3 +1,6 @@
+//Parâmetros
+//          decisão: recebe a decisão do usuário e chama a função
+//Efeito: exibe os comandos do software calculadora
 procedimento ajuda (decisao:caractere)
 inicio
       limpatela
@@ -12,21 +15,37 @@ inicio
       escreval("------------------------------------------------")
 fimprocedimento
 
+//Parâmetros
+//          z: primeiro número
+//          x: segundo número
+//Efeito: realiza a operação de adição
 funcao adicao (z: real; x: real): real
 inicio
       retorne z + x
 fimfuncao
 
+//Parâmetros
+//          z: primeiro número
+//          x: segundo número
+//Efeito: realiza a operação de subtração
 funcao subtracao (z: real; x: real): real
 inicio
       retorne z - x
 fimfuncao
 
+//Parâmetros
+//          z: primeiro número
+//          x: segundo número
+//Efeito: realiza a operação de multiplicação
 funcao multiplicacao (z: real; x: real): real
 inicio
       retorne z * x
 fimfuncao
 
+//Parâmetros
+//          z: primeiro número
+//          x: segundo número
+//Efeito: realiza a operação de divisão
 funcao divisao (z: real; x: real): real
 inicio
       retorne z / x
@@ -67,6 +86,7 @@ Inicio
                        escreval(" = ", adicao(a, b))
                        escreval("------------------------------------------------")
                        senao
+       //Estrutura "subtração"
                             se operacao = "-" entao
                                limpatela
                                escreval("+----------------------------------------------+")
@@ -79,6 +99,7 @@ Inicio
                                escreval(" = ", subtracao(a, b))
                                escreval("------------------------------------------------")
                             senao
+       //Estrutura "Multiplicação
                                  se operacao = "*" entao
                                  limpatela
                                  escreval("+----------------------------------------------+")
@@ -91,6 +112,7 @@ Inicio
                                  escreval(" = ", multiplicacao(a, b))
                                  escreval("------------------------------------------------")
                                  senao
+       //Estrutura "divisão"
                                       se operacao = "/" entao
                                       limpatela
                                       escreval("+----------------------------------------------+")
